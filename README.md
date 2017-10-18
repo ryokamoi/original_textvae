@@ -1,4 +1,4 @@
-# TensorFlow implementation of "A Hybrid Convolutional Variational Autoencoder for Text Generation"
+# TensorFlow implementation of "Generating Sentences from a Continuous Space"
 
 paper:[https://arxiv.org/abs/1511.06349](https://arxiv.org/abs/1511.06349)
 
