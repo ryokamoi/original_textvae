@@ -90,7 +90,7 @@ class Encoder_vae(object):
             self.logvar = tf.matmul(h, context_to_logvar_W) + context_to_logvar_b
 
         with tf.name_scope("z"):
-            z = tf.truncated_normal((FLAGS.BATCH_SIZE, FLAGS.LATENT_VARIABLE_SIZE), stddev=1.0)
+            z = tf.random_normal((FLAGS.BATCH_SIZE, FLAGS.LATENT_VARIABLE_SIZE), stddev=1.0)
 
         with tf.name_scope("latent_variables"):
             self.latent_variables = self.mu + tf.exp(0.5 * self.logvar) * z
