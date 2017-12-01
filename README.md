@@ -25,7 +25,7 @@ Pickle file of Numpy array of word ids (shape=[batch_size, sentence_length]).
 
  * Dictionary
 
-Pickle file of Python dictionary. It should contain "<EOS>", "<PAD>", "<GO>" as meta words.
+Pickle file of Python dictionary. It should contain "\<EOS\>", "\<PAD\>", "\<GO\>" as meta words.
 
 ```python
   dictionary = {word1: id1,
