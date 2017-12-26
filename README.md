@@ -4,7 +4,7 @@ paper:[https://arxiv.org/abs/1511.06349](https://arxiv.org/abs/1511.06349)
 
 This is NOT an original implementation. There may be some minor differences from the original structure.
 
-Results are reported in [my blog](https://sesenosannko.github.io/contents/text_g/original)
+Results are reported in [my blog](https://ryokamoi.github.io/contents/text_g/original)
 
 ## Prerequisites
 
